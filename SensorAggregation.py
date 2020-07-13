@@ -29,7 +29,7 @@ df5 = df5.rename(columns={'temperature' : 'avg_temp', 'humidity' : 'avg_humid'})
 df2["max_temp"] = df3["max_temp"]
 df2["max_humid"] = df3["max_humid"]
 df2["median_temp"] = df4["median_temp"]
-df2["median_temp"] = df4["median_humid"]
+df2["median_humid"] = df4["median_humid"]
 df2["avg_temp"] = df5["avg_temp"]
 df2["avg_humid"] = df5["avg_humid"]
 print(df2)
